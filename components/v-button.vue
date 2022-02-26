@@ -1,5 +1,5 @@
 .<template>
-  <button>{{label}}</button>
+  <button class="p-10 bg-green-300">{{label}}</button>
 </template>
 
 <script setup lang="ts">

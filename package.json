@@ -4,12 +4,15 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
-    "storybook": "start-storybook -p 6006 -s ./public,./assets"
+    "storybook": "start-storybook -p 6006 -s ./public"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/vue3": "^6.4.19",
+    "@unocss/nuxt": "^0.26.3",
     "nuxt3": "latest",
+    "postcss": "^8.2.4",
+    "postcss-import": "^14.0.0",
     "storybook-builder-vite": "^0.1.17"
   },
   "dependencies": {
