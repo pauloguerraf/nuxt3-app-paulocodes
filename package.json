@@ -11,5 +11,8 @@
     "@storybook/vue3": "^6.4.19",
     "nuxt3": "latest",
     "storybook-builder-vite": "^0.1.17"
+  },
+  "dependencies": {
+    "storybook-dark-mode": "^1.0.9"
   }
 }

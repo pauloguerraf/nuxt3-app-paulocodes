@@ -5,7 +5,8 @@ module.exports = {
     "../components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
-    '@storybook/addon-essentials'
+    '@storybook/addon-essentials',
+    'storybook-dark-mode'
   ],
   core: {
     builder: "storybook-builder-vite"
