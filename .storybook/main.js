@@ -1,4 +1,7 @@
 const UnoCss = require('unocss/vite').default
+const presetUno = require('@unocss/preset-uno').default
+const presetIcons = require('@unocss/preset-icons').default
+const presetAttributify = require('@unocss/preset-attributify').default
 
 module.exports = {
   stories: [
@@ -18,6 +21,11 @@ module.exports = {
     config.plugins = config.plugins ?? [];
     config.plugins.push(
       UnoCss({
+        presets: [
+          presetIcons(), 
+          presetUno(),
+          presetAttributify()
+        ],
       })
     );
     return config;
