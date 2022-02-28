@@ -1,6 +1,6 @@
 import { themes } from '@storybook/theming';
 import 'uno.css'
-
+import '../assets/styles/global.css'
 export const parameters = {
     darkMode: {
         // Override the default dark theme

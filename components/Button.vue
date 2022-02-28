@@ -1,7 +1,7 @@
 .<template>
-  <button px-10 py-5 bg-cyan-300 flex gap-2 cursor-pointer items-center justify-center rounded-full rounded border-0 hover:bg-blue-600 hover:text-white>
+  <button text-2xl px-20 py-5 bg-cyan-300 flex gap-2 cursor-pointer items-center justify-center rounded-full rounded border-0 hover:bg-blue-600 hover:text-white>
   <div i-carbon-sun></div>
-  {{label}}
+  <span>{{label}}</span>
   </button>
 </template>
 
@@ -15,4 +15,5 @@ const props = defineProps({
 </script>
 
 <style scoped>
+
 </style>

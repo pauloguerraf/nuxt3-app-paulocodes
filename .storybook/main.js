@@ -22,7 +22,9 @@ module.exports = {
     config.plugins.push(
       UnoCss({
         presets: [
-          presetIcons(), 
+          presetIcons({
+            scale: 1.2
+          }), 
           presetUno(),
           presetAttributify()
         ],
