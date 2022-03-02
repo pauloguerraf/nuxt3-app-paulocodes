@@ -16,5 +16,8 @@ export default defineNuxtConfig({
         // core options
         shortcuts: [],
         rules: [],
+    },
+    nitro: {
+        preset: "vercel",
     }
 })

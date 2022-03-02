@@ -5,20 +5,13 @@
   />
 </template>
 
-<script>
+<script setup lang="ts">
 import { Motion } from "motion/vue";
 
-export default {
-  components: { Motion },
-  setup() {
-    return {
-      transition: {
-        delay: 3,
-        duration: 2,
-        repeat: Infinity
-      },
-    };
-  },
+const transition = {
+    delay: 3,
+    duration: 2,
+    repeat: Infinity
 };
 </script>
 
