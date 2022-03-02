@@ -9,7 +9,7 @@
 import { Motion } from "motion/vue";
 
 const transition = {
-    delay: 3,
+    delay: 1,
     duration: 2,
     repeat: Infinity
 };

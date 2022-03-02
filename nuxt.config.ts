@@ -1,6 +1,9 @@
 import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
+    meta: {
+        title: 'Paulo Guerra F',
+    },
     buildModules: [
         '@unocss/nuxt'
     ],
@@ -16,8 +19,5 @@ export default defineNuxtConfig({
         // core options
         shortcuts: [],
         rules: [],
-    },
-    nitro: {
-        preset: "vercel",
     }
 })
