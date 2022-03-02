@@ -1,6 +1,5 @@
 import { defineNuxtConfig } from 'nuxt3'
 
-// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
     buildModules: [
         '@unocss/nuxt'
@@ -9,13 +8,13 @@ export default defineNuxtConfig({
         '@/assets/styles/global.css'
     ],
     unocss: {
-        uno: true, // enabled `@unocss/preset-uno`
+        uno: true, // enable `@unocss/preset-uno`
         icons: {
-            scale: 1.2,
-        }, // enabled `@unocss/preset-icons`
-        attributify: true, // enabled `@unocss/preset-attributify`,
+            scale: 1.2, // enable `@unocss/preset-icons` with width and size of 1.2em
+        }, 
+        attributify: true, // enable `@unocss/preset-attributify`,
         // core options
         shortcuts: [],
         rules: [],
-    },
+    }
 })

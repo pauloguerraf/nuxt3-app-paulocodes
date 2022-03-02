@@ -18,6 +18,7 @@
     "storybook-builder-vite": "^0.1.17"
   },
   "dependencies": {
+    "motion": "^10.6.2",
     "storybook-dark-mode": "^1.0.9"
   }
 }
