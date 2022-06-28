@@ -12,7 +12,7 @@
     "@storybook/vue3": "^6.4.19",
     "@unocss/nuxt": "^0.26.3",
     "@vueuse/nuxt": "^7.7.0",
-    "nuxt3": "^3.0.0-27434337.d6102de",
+    "nuxt3": "^3.0.0-rc.4-27605536.8c2c80e",
     "postcss": "^8.2.4",
     "postcss-import": "^14.0.0",
     "storybook-builder-vite": "^0.1.17"
